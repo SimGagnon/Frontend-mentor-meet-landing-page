@@ -1,5 +1,12 @@
 .hero {
 
+    &__img {
+
+        img {
+            margin-bottom: 3rem;
+        }
+    }
+
     &__text {
         
         h1 {

@@ -57,6 +57,11 @@ button {
 
 .header {
   padding-top: 3rem;
+  margin-bottom: 3.375rem;
+}
+
+.hero__img img {
+  margin-bottom: 3rem;
 }
 
 .hero__text h1 {
@@ -90,5 +95,10 @@ button {
   width: 8.6875rem;
   height: 3.625rem;
   margin-top: 1rem;
+}
+
+.footer {
+  padding: 5.75rem 6.0625rem 4.125rem 6.125rem;
+  color: #fafafa;
 }
 /*# sourceMappingURL=style.css.map */
