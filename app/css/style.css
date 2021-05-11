@@ -12,9 +12,18 @@ html {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, button {
+  font-weight: 900;
+}
+
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 a {
@@ -25,5 +34,61 @@ a {
 
 li {
   list-style: none;
+}
+
+.download--button {
+  background: #4d96a8;
+  width: 12.0625rem;
+  height: 3.625rem;
+}
+
+.download--button span {
+  color: #90e4f9;
+}
+
+button {
+  font-size: 1rem;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 1.8125rem;
+}
+
+.header {
+  padding-top: 3rem;
+}
+
+.hero__text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.75rem;
+}
+
+.hero__text p {
+  color: #86869c;
+  font-size: 1rem;
+  padding: 0px 25px;
+}
+
+.hero__text--buttons {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__text--buttons button:nth-child(2) {
+  background: #845eb0;
+  width: 8.6875rem;
+  height: 3.625rem;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,10 +10,19 @@ html {
     padding: 0;
 }
 
+h1,h2,h3,h4,h5,button {
+    font-weight: 900;
+}
+
 
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: $RedHat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 a {
@@ -24,6 +33,25 @@ a {
 
 li {
     list-style: none;
+}
+
+.download--button {
+    background: $MediumBlue;
+    width: 12.0625rem;
+    height: 3.625rem;
+
+    span {
+        color: $LightBlue;
+    }
+}
+
+button {
+    font-size: 1rem;
+    color: $White;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 1.8125rem;
 }
 
 
