@@ -90,6 +90,10 @@ button {
           align-items: center;
 }
 
+.hero__text--buttons button:nth-child(1):hover {
+  background: #72c1d5;
+}
+
 .hero__text--buttons button:nth-child(2) {
   background: #845eb0;
   width: 8.6875rem;
@@ -97,8 +101,53 @@ button {
   margin-top: 1rem;
 }
 
+.hero__text--buttons button:nth-child(2):hover {
+  background: #b18edc;
+}
+
 .footer {
-  padding: 5.75rem 6.0625rem 4.125rem 6.125rem;
+  padding: 5.75rem 1.5rem 4.5rem 1.5rem;
   color: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 168, 0.87)), to(rgba(77, 150, 168, 0.87))), url("/img/mobile/image-footer.jpg");
+  background: linear-gradient(rgba(77, 150, 168, 0.87), rgba(77, 150, 168, 0.87)), url("/img/mobile/image-footer.jpg");
+  background-size: cover;
+}
+
+.footer h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer p {
+  margin-bottom: 2rem;
+}
+
+.footer button {
+  background: #845eb0;
+}
+
+.footer button:hover {
+  background: #d9b8ff;
+}
+
+.about__text h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  line-height: 26px;
+  color: #4d96a8;
+  margin-bottom: 1.5rem;
+}
+
+.about__text h2 {
+  font-size: 2rem;
+  line-height: 36px;
+  margin-bottom: 2rem;
+}
+
+.about__text p {
+  color: #86869c;
+  font-size: 1rem;
+  margin-bottom: 4rem;
 }
 /*# sourceMappingURL=style.css.map */

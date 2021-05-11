@@ -1,4 +1,25 @@
 .footer {
-    padding: 5.75rem 6.0625rem 4.125rem 6.125rem;
+    padding: 5.75rem 1.5rem 4.5rem 1.5rem;
     color: $White;
+    background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/mobile/image-footer.jpg');
+    background-size: cover;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    button {
+        background: $DarkPurple;
+
+        &:hover {
+            background: $LightPurple;
+        }
+    }
+
+    
 }
