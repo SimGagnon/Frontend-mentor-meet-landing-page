@@ -55,6 +55,27 @@ button {
   border-radius: 1.8125rem;
 }
 
+.page--button {
+  border: 1px rgba(135, 135, 157, 0.25) solid;
+  padding: 0.9375rem 1.09375rem;
+  border-radius: 29px;
+  color: #86869c;
+  font-size: 1rem;
+  position: relative;
+}
+
+.page--button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  width: 1px;
+  background: rgba(135, 135, 157, 0.25);
+  height: 5.25rem;
+}
+
 .header {
   padding-top: 3rem;
   margin-bottom: 3.375rem;
@@ -99,10 +120,18 @@ button {
   width: 8.6875rem;
   height: 3.625rem;
   margin-top: 1rem;
+  margin-bottom: 10.25rem;
 }
 
 .hero__text--buttons button:nth-child(2):hover {
   background: #b18edc;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
 
 .footer {
@@ -111,11 +140,17 @@ button {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 168, 0.87)), to(rgba(77, 150, 168, 0.87))), url("/img/mobile/image-footer.jpg");
   background: linear-gradient(rgba(77, 150, 168, 0.87), rgba(77, 150, 168, 0.87)), url("/img/mobile/image-footer.jpg");
   background-size: cover;
+  position: relative;
+}
+
+.footer__number {
+  position: absolute;
 }
 
 .footer h1 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  line-height: 2rem;
 }
 
 .footer p {
@@ -128,6 +163,18 @@ button {
 
 .footer button:hover {
   background: #d9b8ff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    margin: auto;
+    max-width: 35.8125rem;
+  }
+  .footer__container h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .about {
@@ -171,5 +218,22 @@ button {
   color: #86869c;
   font-size: 1rem;
   margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about__grid {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 3rem;
+    grid-gap: 11px;
+    margin: 0 auto 3rem;
+  }
+  .about__text {
+    margin: auto;
+  }
+  .about__text h2 {
+    font-size: 2.5rem;
+    line-height: 44px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

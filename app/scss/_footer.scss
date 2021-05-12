@@ -3,10 +3,16 @@
     color: $White;
     background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/mobile/image-footer.jpg');
     background-size: cover;
+    position: relative;
+
+    &__number {
+        position: absolute;
+    }
 
     h1 {
         font-size: 2rem;
         margin-bottom: 1.5rem;
+        line-height: 2rem;
     }
 
     p {
@@ -20,6 +26,23 @@
             background: $LightPurple;
         }
     }
+}
 
-    
+@media screen and (min-width:768px) {
+
+    .footer {
+
+        &__container {
+            margin: auto;
+            max-width: 35.8125rem;
+
+            h1 {
+                font-size: 2.5rem;
+                line-height: 2.75rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+    }
+
 }

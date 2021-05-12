@@ -7,6 +7,7 @@
         }
     }
 
+
     &__text {
         
         h1 {
@@ -38,11 +39,27 @@
                 width: 8.6875rem;
                 height: 3.625rem;
                 margin-top: 1rem;
+                margin-bottom: 10.25rem;
 
                 &:hover {
                     background: hsl(267,53,71);
                 }
             }
+        } 
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .hero {
+        
+        &__text {
+
+            h1 {
+                font-size: 3rem;
+                line-height: 3rem;
+            }
         }
+        
     }
 }
