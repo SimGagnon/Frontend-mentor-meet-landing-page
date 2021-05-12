@@ -8,6 +8,8 @@
             width: 115.65%;
             margin-left: 50%;
             transform: translateX(-50%);
+            max-width: 51.25rem;
+            display: block;
         }
     }
 
@@ -24,6 +26,8 @@
             color: $Grey;
             font-size: 1rem;
             padding: 0px 25px;
+            max-width: 28.5625rem;
+            margin: auto;
         }
 
         &--buttons {
@@ -56,8 +60,12 @@
 
 @media screen and (min-width:768px) {
     .hero {
+
+        margin-bottom: 4.1875rem;
         
         &__text {
+
+            margin-bottom: 10.25rem;
 
             h1 {
                 font-size: 3rem;
@@ -73,6 +81,10 @@
 
                 }
             }
+        }
+
+        &__img {
+            margin-bottom: 4.5rem;
         }
         
     }

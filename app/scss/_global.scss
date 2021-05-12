@@ -1,7 +1,7 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    scroll-behavior: smooth;;
+    scroll-behavior: smooth;
 }
 
 *,*::before, *::after {
@@ -23,6 +23,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
+    overflow-x: hidden;
 }
 
 a {

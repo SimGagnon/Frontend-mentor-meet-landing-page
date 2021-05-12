@@ -1,5 +1,6 @@
 .about {
     padding: 0 1.5rem 0 1.5rem;
+    margin-bottom: 11rem;
 
     &__grid {
         display: grid;
@@ -18,25 +19,30 @@
     }
 
     &__text {
+
+        margin: auto;
+
         h3 {
             text-transform: uppercase;
             font-size: 1rem;
             letter-spacing: 4px;
             line-height: 26px;
             color: $MediumBlue;
-            margin-bottom: 1.5rem;
+            margin: auto;
         }
 
         h2 {
             font-size: 2rem;
             line-height: 36px;
-            margin-bottom: 2rem;
+            margin: 0 auto 2rem;
+            max-width: 27.8125rem;
         }
 
         p {
             color: $Grey;
             font-size: 1rem;
-            margin-bottom: 4rem;
+            max-width: 35.8125rem;
+            margin: auto;
         }
     }
 }
@@ -44,6 +50,9 @@
 @media screen and (min-width:768px) {
 
     .about {
+
+        padding: 0 2.4375rem 0 2.4375rem;
+        margin-bottom: 12rem;
 
         &__grid {
             grid-template-columns: repeat(4, 1fr);
@@ -53,12 +62,14 @@
         }
 
         &__text {
-
-            margin: auto;
     
             h2 {
                 font-size: 2.5rem;
                 line-height: 44px;
+            }
+
+            h3 {
+                margin-bottom: 1rem;
             }
     
         }
