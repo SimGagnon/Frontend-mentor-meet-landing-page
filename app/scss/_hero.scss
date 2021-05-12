@@ -4,6 +4,9 @@
 
         img {
             margin-bottom: 3rem;
+            width: 115.65%;
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
     }
 
@@ -58,6 +61,16 @@
             h1 {
                 font-size: 3rem;
                 line-height: 3rem;
+            }
+
+            &--buttons {
+                flex-direction: row;
+                justify-content: center;
+    
+                button:nth-child(2) {
+                    margin: 0 0 0 16px;
+
+                }
             }
         }
         

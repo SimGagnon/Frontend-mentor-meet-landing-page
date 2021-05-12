@@ -83,6 +83,10 @@ button {
 
 .hero__img img {
   margin-bottom: 3rem;
+  width: 115.65%;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .hero__text h1 {
@@ -132,6 +136,18 @@ button {
     font-size: 3rem;
     line-height: 3rem;
   }
+  .hero__text--buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero__text--buttons button:nth-child(2) {
+    margin: 0 0 0 16px;
+  }
 }
 
 .footer {
@@ -166,6 +182,10 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 5.75rem;
+    padding-bottom: 4.125rem;
+  }
   .footer__container {
     margin: auto;
     max-width: 35.8125rem;
@@ -174,6 +194,9 @@ button {
     font-size: 2.5rem;
     line-height: 2.75rem;
     margin-bottom: 2rem;
+  }
+  .footer__container p {
+    margin-bottom: 2.5rem;
   }
 }
 
