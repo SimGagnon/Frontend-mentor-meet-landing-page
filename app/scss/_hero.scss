@@ -2,8 +2,9 @@
 
     &__img {
 
+        margin-bottom: 3rem;
+
         img {
-            margin-bottom: 3rem;
             width: 115.65%;
             margin-left: 50%;
             transform: translateX(-50%);
@@ -42,7 +43,7 @@
                 width: 8.6875rem;
                 height: 3.625rem;
                 margin-top: 1rem;
-                margin-bottom: 10.25rem;
+                margin-bottom: 9.25rem;
 
                 &:hover {
                     background: hsl(267,53,71);

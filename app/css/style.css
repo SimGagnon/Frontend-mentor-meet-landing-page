@@ -62,6 +62,11 @@ button {
   color: #86869c;
   font-size: 1rem;
   position: relative;
+  height: 3.375rem;
+  width: 3.375rem;
+  display: block;
+  margin: auto;
+  font-weight: 900;
 }
 
 .page--button::before {
@@ -81,8 +86,11 @@ button {
   margin-bottom: 3.375rem;
 }
 
-.hero__img img {
+.hero__img {
   margin-bottom: 3rem;
+}
+
+.hero__img img {
   width: 115.65%;
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
@@ -124,7 +132,7 @@ button {
   width: 8.6875rem;
   height: 3.625rem;
   margin-top: 1rem;
-  margin-bottom: 10.25rem;
+  margin-bottom: 9.25rem;
 }
 
 .hero__text--buttons button:nth-child(2):hover {
@@ -161,6 +169,12 @@ button {
 
 .footer__number {
   position: absolute;
+  top: -1.75rem;
+  left: 40%;
+}
+
+.footer__number span {
+  background: #fafafa;
 }
 
 .footer h1 {

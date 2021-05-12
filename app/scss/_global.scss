@@ -61,6 +61,11 @@ button {
     color: $Grey;
     font-size: 1rem;
     position: relative;
+    height: 3.375rem;
+    width: 3.375rem;
+    display: block;
+    margin: auto;
+    font-weight: 900;
     
 
     &::before {
