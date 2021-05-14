@@ -224,12 +224,12 @@ button {
   .hero__img__left {
     display: block;
     float: left;
-    transform: translate(-8%, -10%);
+    transform: translate(-8%, -15%);
   }
   .hero__img__right {
     display: block;
     float: right;
-    transform: translateX(8%);
+    transform: translate(8%);
   }
 }
 
