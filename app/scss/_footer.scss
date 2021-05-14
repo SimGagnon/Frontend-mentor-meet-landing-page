@@ -73,7 +73,7 @@
 }
 
 // Desktop //
-@media only screen and (min-width : 75em) {
+@media screen and (min-width : 75em) {
 
     .footer {
         background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('../../img/desktop/image-footer.jpg');
