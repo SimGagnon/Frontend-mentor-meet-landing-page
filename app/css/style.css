@@ -352,7 +352,7 @@ button {
   letter-spacing: 4px;
   line-height: 26px;
   color: #4d96a8;
-  margin: auto;
+  margin: 0 auto 1.5rem;
 }
 
 .about__text h2 {
@@ -385,6 +385,7 @@ button {
   }
   .about__text h2 {
     font-size: 2.5rem;
+    line-height: 2.75rem;
   }
   .about__text h3 {
     margin-bottom: 1rem;
