@@ -394,4 +394,13 @@ button {
     max-width: 33.75rem;
   }
 }
+
+@media screen and (min-width: 48em) {
+  .about {
+    margin-bottom: 11.5rem;
+  }
+  .about__grid {
+    margin-bottom: 5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
