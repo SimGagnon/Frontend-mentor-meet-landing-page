@@ -23,6 +23,7 @@ body {
   font-size: 18px;
   line-height: 26px;
   overflow-x: hidden;
+  background: #fafafa;
 }
 
 a {
@@ -100,7 +101,7 @@ button {
 @media screen and (min-width: 75em) {
   .header {
     padding-top: 5rem;
-    margin-bottom: 3.8125rem;
+    margin-bottom: 6.75rem;
   }
 }
 
