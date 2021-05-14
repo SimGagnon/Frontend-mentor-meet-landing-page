@@ -407,6 +407,7 @@ button {
   }
   .about__grid {
     margin-bottom: 5rem;
+    grid-gap: 1.875rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
