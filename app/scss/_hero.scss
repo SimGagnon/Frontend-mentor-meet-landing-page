@@ -79,7 +79,6 @@
 @media screen and (min-width: 48em) {
     
     .hero {
-
         margin-bottom: 4.1875rem;
 
         &__text {
@@ -141,7 +140,7 @@
             &__right {
                 display: block;
                 float: right;
-                transform: translateX(10%);
+                transform: translateX(8%);
             }
         }
     }

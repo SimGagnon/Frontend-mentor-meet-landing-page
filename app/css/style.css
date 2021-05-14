@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, button {
   font-weight: 900;
 }
 
+h1, h2 {
+  color: #28283e;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -225,7 +229,7 @@ button {
   .hero__img__right {
     display: block;
     float: right;
-    transform: translateX(10%);
+    transform: translateX(8%);
   }
 }
 
@@ -245,7 +249,7 @@ button {
 .footer__number {
   position: absolute;
   top: -1.75rem;
-  left: 49%;
+  left: 48.5%;
 }
 
 .footer__number span {
@@ -294,7 +298,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75em) {
   .footer {
     background: linear-gradient(rgba(77, 150, 168, 0.87), rgba(77, 150, 168, 0.87)), url("../../img/desktop/image-footer.jpg");
     background-size: cover;
