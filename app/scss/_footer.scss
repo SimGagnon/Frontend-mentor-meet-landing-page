@@ -1,7 +1,7 @@
 .footer {
     padding: 5.75rem 1.5rem 4.5rem 1.5rem;
     color: $White;
-    background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/mobile/image-footer.jpg');
+    background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('../../img/mobile/image-footer.jpg');
     background-size: cover;
     position: relative;
 
@@ -49,7 +49,7 @@
 @media screen and (min-width:48em) {
 
     .footer {
-        background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/tablet/image-footer.jpg');
+        background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('../../img/tablet/image-footer.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 5.75rem;
@@ -75,7 +75,7 @@
 @media only screen and (min-width : 1200px) {
 
     .footer {
-        background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/desktop/image-footer.jpg');
+        background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('../../img/desktop/image-footer.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         text-align: left;
