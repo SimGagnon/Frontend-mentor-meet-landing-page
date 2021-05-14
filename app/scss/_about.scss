@@ -59,6 +59,10 @@
             margin-bottom: 3rem;
             grid-gap: 11px;
             margin:0 auto 3rem;
+
+            div {
+                max-width: 15.9375rem;
+            }
         }
 
         &__text {

@@ -5,10 +5,15 @@
     background-size: cover;
     position: relative;
 
+    &__container {
+        max-width: 35.8125rem;
+        margin: auto;
+    }
+
     &__number {
         position: absolute;
         top: -1.75rem;
-        left: 45%;
+        left: 49%;
 
         span {
             background: $White;
@@ -31,9 +36,16 @@
         &:hover {
             background: $LightPurple;
         }
+
+        &:focus {
+            outline: none;
+            border: 5px hsl(267,53,71) solid;
+            border-radius: 2rem;
+        }
     }
 }
 
+// Tablet //
 @media screen and (min-width:768px) {
 
     .footer {
@@ -45,8 +57,7 @@
         padding-bottom: 4.125rem;
 
         &__container {
-            margin: auto;
-            max-width: 35.8125rem;
+
 
             h1 {
                 font-size: 2.5rem;
@@ -59,6 +70,38 @@
             }
         }
 
+    }
+}
+
+// Desktop //
+@media only screen and (min-width : 1200px) {
+
+    .footer {
+        background: linear-gradient(hsla(192, 37%, 48%, 0.87) ,hsla(192, 37%, 48%, 0.87)),url('/img/desktop/image-footer.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: left;
+        padding: 7.25rem 0 6.5rem 0;
+
+        &__container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 68.75rem;
+            justify-content: space-between;
+
+            h1 {
+                margin: 0;
+                width: 21.875rem;
+                margin-right: 7.8125rem;
+            }
+
+            p {
+                margin: 0;
+                width: 21.875rem;
+                margin-right: 5.75rem;
+            }
+        }
     }
 
 }

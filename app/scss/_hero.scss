@@ -1,5 +1,8 @@
 .hero {
 
+    max-width: 94rem;
+    margin: auto;
+
     &__img {
 
         margin-bottom: 3rem;
@@ -10,6 +13,10 @@
             transform: translateX(-50%);
             max-width: 51.25rem;
             display: block;
+        }
+
+        &__left,&__right {
+            display: none;
         }
     }
 
@@ -37,6 +44,12 @@
             align-items: center;
 
             button:nth-child(1) {
+
+                &:focus {
+                    outline: none;
+                    border: 5px hsl(192, 54%, 64%) solid;
+                    border-radius: 2rem;
+                }
                 &:hover {
                     background: hsl(192, 54%, 64%);
                 }
@@ -48,6 +61,12 @@
                 height: 3.625rem;
                 margin-top: 1rem;
                 margin-bottom: 9.25rem;
+
+                &:focus {
+                    outline: none;
+                    border: 5px hsl(267,53,71) solid;
+                    border-radius: 2rem;
+                }
 
                 &:hover {
                     background: hsl(267,53,71);
@@ -86,6 +105,44 @@
         &__img {
             margin-bottom: 4.5rem;
         }
-        
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .hero {
+
+        &__text {
+
+            max-width: 33.75rem;
+            margin: auto;
+            margin-bottom: 12.125rem;
+
+            h1 {
+                font-size: 4rem;
+                margin-bottom: 2.125rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+                max-width: 33.75rem;
+                padding: 0;
+            }
+        }
+
+        &__img {
+            display: none;
+    
+            &__left {
+                display: block;
+                float: left;
+                transform: translateX(-10%);
+            }
+
+            &__right {
+                display: block;
+                float: right;
+                transform: translateX(10%);
+            }
+        }
     }
 }
