@@ -57,7 +57,7 @@ button {
 
 .page--button {
     border: 1px rgba(135, 135, 157, 0.25) solid;
-    padding: 0.9375rem 1.09375rem;
+    padding: 0.9375rem 0;
     border-radius: 29px;
     color: $Grey;
     font-size: 1rem;
@@ -67,8 +67,8 @@ button {
     display: block;
     margin: auto;
     font-weight: 900;
+    text-align: center;
     
-
     &::before {
         content: "";
         display: block;

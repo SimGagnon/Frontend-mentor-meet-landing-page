@@ -1,5 +1,4 @@
 .header {
-
     padding-top: 3rem;
     margin-bottom: 3.375rem;
 
@@ -13,14 +12,14 @@
 }
 
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 48em) {
+    
     .header {
         margin-bottom: 4rem;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75em) {
 
     .header {
         padding-top: 5rem;

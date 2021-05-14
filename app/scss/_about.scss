@@ -19,7 +19,6 @@
     }
 
     &__text {
-
         margin: auto;
 
         h3 {
@@ -47,10 +46,9 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 48em) {
 
     .about {
-
         padding: 0 2.4375rem 0 2.4375rem;
         margin-bottom: 12rem;
 
@@ -58,7 +56,7 @@
             grid-template-columns: repeat(4, 1fr);
             margin-bottom: 3rem;
             grid-gap: 11px;
-            margin:0 auto 3rem;
+            margin: 0 auto 3rem;
 
             div {
                 max-width: 15.9375rem;
@@ -66,16 +64,14 @@
         }
 
         &__text {
-    
+
             h2 {
                 font-size: 2.5rem;
-                line-height: 44px;
             }
 
             h3 {
                 margin-bottom: 1rem;
             }
-    
         }
     }
 

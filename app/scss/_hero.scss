@@ -1,10 +1,8 @@
 .hero {
-
     max-width: 94rem;
     margin: auto;
 
     &__img {
-
         margin-bottom: 3rem;
 
         img {
@@ -15,14 +13,14 @@
             display: block;
         }
 
-        &__left,&__right {
+        &__left,
+        &__right {
             display: none;
         }
     }
 
-
     &__text {
-        
+
         h1 {
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
@@ -50,6 +48,7 @@
                     border: 5px hsl(192, 54%, 64%) solid;
                     border-radius: 2rem;
                 }
+
                 &:hover {
                     background: hsl(192, 54%, 64%);
                 }
@@ -64,26 +63,26 @@
 
                 &:focus {
                     outline: none;
-                    border: 5px hsl(267,53,71) solid;
+                    border: 5px hsl(267, 53, 71) solid;
                     border-radius: 2rem;
                 }
 
                 &:hover {
-                    background: hsl(267,53,71);
+                    background: hsl(267, 53, 71);
                 }
             }
-        } 
+        }
     }
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 48em) {
+    
     .hero {
 
         margin-bottom: 4.1875rem;
-        
-        &__text {
 
+        &__text {
             margin-bottom: 10.25rem;
 
             h1 {
@@ -94,9 +93,9 @@
             &--buttons {
                 flex-direction: row;
                 justify-content: center;
-    
+
                 button:nth-child(2) {
-                    margin: 0 0 0 16px;
+                    margin: 0 0 0 1rem;
 
                 }
             }
@@ -108,11 +107,11 @@
     }
 }
 
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width: 75em) {
+
     .hero {
 
         &__text {
-
             max-width: 33.75rem;
             margin: auto;
             margin-bottom: 12.125rem;
@@ -131,7 +130,7 @@
 
         &__img {
             display: none;
-    
+
             &__left {
                 display: block;
                 float: left;
