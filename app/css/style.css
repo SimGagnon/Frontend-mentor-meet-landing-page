@@ -207,6 +207,7 @@ button {
   .hero__text h1 {
     font-size: 4rem;
     margin-bottom: 2.125rem;
+    line-height: 4rem;
   }
   .hero__text p {
     font-size: 1.125rem;
@@ -387,6 +388,10 @@ button {
   }
   .about__text h3 {
     margin-bottom: 1rem;
+  }
+  .about__text p {
+    font-size: 1.125rem;
+    max-width: 33.75rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
