@@ -224,7 +224,7 @@ button {
   .hero__img__left {
     display: block;
     float: left;
-    transform: translateX(-10%);
+    transform: translate(-8%, -10%);
   }
   .hero__img__right {
     display: block;
