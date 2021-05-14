@@ -256,10 +256,11 @@ button {
   background: #fafafa;
 }
 
-.footer h1 {
+.footer h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   line-height: 2rem;
+  color: #fafafa;
 }
 
 .footer p {
@@ -288,7 +289,7 @@ button {
     padding-top: 5.75rem;
     padding-bottom: 4.125rem;
   }
-  .footer__container h1 {
+  .footer__container h2 {
     font-size: 2.5rem;
     line-height: 2.75rem;
     margin-bottom: 2rem;
@@ -313,7 +314,7 @@ button {
     max-width: 68.75rem;
     justify-content: space-between;
   }
-  .footer__container h1 {
+  .footer__container h2 {
     margin: 0;
     width: 21.875rem;
     margin-right: 7.8125rem;
